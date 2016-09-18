@@ -1,18 +1,26 @@
-@import "compass/css3";
-
-@import url(http://fonts.googleapis.com/css?family=Share+Tech+Mono);
+@import 'https://fonts.googleapis.com/css?family=Raleway';
 
 
-body{
-  background: black;
+div {
+    height: 200px;
+    width: 400px;
+    background: white;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
 }
 
-svg{
-  width: 600px;
-  height: 120px;
-  display: block;
-  position: relative;
-  overflow: hidden; 
-  margin: 0 auto;
-  background: black;
+
+p{
+    position: center;
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40;
 }
